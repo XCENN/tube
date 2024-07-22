@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OsujdauTube</title>
+    <!-- Linking Unicons for Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="sidebar-hidden">
+    <div class="container">
+        <!-- Header / Navbar -->
+        <header>
+            <nav class="navbar">
+                <div class="nav-section nav-left">
+                    <button class="nav-button menu-button">
+                        <i class="uil uil-bars"></i>
+                    </button>
+                    <a href="#" class="nav-logo">
+                        <img src="./images/service-logo.jpg" alt="Logo" class="logo-image">
+                        <h2 class="logo-text">OsujdauTube</h2>
+                    </a>
+                </div>
+
+                <div class="nav-section nav-center">
+                    <form action="#" class="search-form">
+                        <input type="search" placeholder="Search" class="search-input" required>
+                        <button class="nav-button search-button">
+                            <i class="uil uil-search"></i>                        
+                        </button>
+                    </form>
+                    <button class="nav-button mic-button">
+                        <i class="uil uil-microphone"></i>  
+                    </button>
+                </div>
+
+                <div class="nav-section nav-right">
+                    <button class="nav-button search-button">
+                        <i class="uil uil-search"></i>                        
+                    </button>
+                    <button class="nav-button search-button">
+                        <i class="uil uil-search"></i>  
+                    </button>
+                    <button class="nav-button theme-button">
+                        <i class="uil uil-moon"></i>  
+                    </button>
+                    <img src="./images/user-photo.jpg" alt="User Image" class="user-image">
+                </div>
+            </nav>
+        </header>
+
+        <main class="main-layout">
+            <div class="screen-overlay"></div>
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="nav-section nav-left">
+                    <button class="nav-button menu-button">
+                        <i class="uil uil-bars"></i>
+                    </button>
+                    <a href="#" class="nav-logo">
+                        <img src="./images/service-logo.jpg" alt="Logo" class="logo-image">
+                        <h2 class="logo-text">OsujdauTube</h2>
+                    </a>
+                </div>
+                <div class="link-container">
+                    <div class="link-section">
+                        <a href="#" class="link-item">
+                            <i class="uil uil-estate"></i> Домашняя страница
+                        </a>
+
+                        <a href="#" class="link-item">
+                            <i class="uil uil-video"></i> Shorts
+                        </a>
+
+                        <a href="#" class="link-item">
+                            <i class="uil uil-heart-alt"></i> Подписки
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+
+                    <div class="link-section">
+                        <h4 class="section-title">You</h4>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-user-square"></i> Мой канал
+                        </a>
+
+                        <a href="#" class="link-item">
+                            <i class="uil uil-history"></i> История
+                        </a>
+
+                        <a href="#" class="link-item">
+                            <i class="uil uil-clock"></i> Смотреть позже
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+
+                    <div class="link-section">
+                        <h4 class="section-title">Обзор</h4>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-fire"></i> В Тренде
+                        </a>
+
+                        <a href="#" class="link-item">
+                            <i class="uil uil-music"></i> Музыка
+                        </a>
+
+                        <a href="#" class="link-item">
+                            <i class="uil uil-basketball"></i> Игры
+                        </a>
+
+                        <a href="#" class="link-item">
+                            <i class="uil uil-trophy"></i> Спорт
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+
+                    <div class="link-section">
+                        <h4 class="section-title">More from Youtube</h4>
+                        <a href="#" class="link-item">
+                            <i class="uil uil-shield-plus"></i> Youtube Plus
+                        </a>
+
+                        <a href="#" class="link-item">
+                            <i class="uil uil-headphones-alt"></i> Youtube Музыка
+                        </a>
+
+                        <a href="#" class="link-item">
+                            <i class="uil uil-airplay"></i> Youtube Kids
+                        </a>
+
+                    </div>
+                    <div class="section-separator"></div>
+
+                    <div class="link-section">
+                        <a href="#" class="link-item">
+                            <i class="uil uil-cog"></i> Settings
+                        </a>
+
+                        <a href="#" class="link-item">
+                            <i class="uil uil-file-medical-alt"></i> Report
+                        </a>
+
+                        <a href="#" class="link-item">
+                            <i class="uil uil-question-circle"></i> Help
+                        </a>
+
+                        <a href="#" class="link-item">
+                            <i class="uil uil-exclamation-triangle"></i> Feedback
+                        </a>                        
+                    </div>
+                    <div class="section-separator"></div>
+
+                </div>
+            </aside>
+            <div class="content-wrapper">
+                
+                <!-- Category List -->
+                <div class="category-list">
+                    <button class="category-button active">Все</button>
+                    <button class="category-button">Смешные видео про Даню</button>
+                    <button class="category-button">Мемы с Чарликом</button>
+                    <button class="category-button">Самоучитель по кальяну</button>
+                    <button class="category-button">Будни киберпарщика</button>
+                    <button class="category-button">Голые киски</button>
+                    <button class="category-button">Песни Платины</button>
+                    <button class="category-button">Дизайн от Арттеха</button>
+                    <button class="category-button">Считаем калории</button>
+                    <button class="category-button">Смешные псы</button>
+                    <button class="category-button">Мемы от Сани</button>
+                    <button class="category-button">Гуляем по парку</button>
+                    <button class="category-button">Своя игра</button>
+                    <button class="category-button">Играем в настолки</button>
+                    <button class="category-button">Шалости</button>
+
+
+                </div>
+
+                <!-- Video List -->
+                <div class="video-list">
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/kq7Vc5bhke4/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYciBGKDwwDw==&rs=AOn4CLBeGqEFkpsI13PAQEhyKVo4T3fvlg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">1:02:40</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/ytc/AIdro_m-xkcb0AXm5jNNUEe89eJceT-EHDMfzpVb7mV-HRbSlUI=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">КАК УСТРОЕНА ЖЕНСКАЯ КОЛОНИЯ</h2>
+                            <p class="channel-name">Кузьма</p>
+                            <p class="views">117 тыс. просмотров • 13 часов назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/CjQFgo4QkKg/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBCHJRe_QvKaCgSXEO4y2hj7QJdRg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">16:00</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/FzxJ8fgPnv1ViSAVMDVaSjz06Y-p-FF0lh2v3LKFooQvdw5n6Hw8efd_p2LK_ujudcrY0pmAwQ=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">Настоящий Юрист Разбирает Суд В "Смешариках" И "Гравити Фолз"</h2>
+                            <p class="channel-name">JURIS VIS - Сила права</p>
+                            <p class="views">122 тыс. просмотров • 9 дней назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/6ijCtjkGdtY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBAbLYcBv2i0lXsgwyv0_G_INZy0A" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">42:15</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/ytc/AIdro_lBYPtRsVNTXeFwWSFBZKaKY2rUrDTvAyxCXxDKIwwKqYc=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">ГРУЗ 200 « Полный Разбор Фильма» [Главный посыл, Аллюзия на СССР, Чёрная Метафора]
+                            </h2>
+                            <p class="channel-name">В Мире Теорий</p>
+                            <p class="views">55 тыс. просмотров • 9 дней назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/2EVTa_dWe-4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBgTTWC5Htu-3VDkTkICxisRCdsqw" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">50:27</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/QwGEiExnCF7sxmuBZlEaZwftleeIUegUKTlJqgkKQGxa0T2ZupeDT_ym2OQCP6EwsKt-cPhTdg=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">СЛИВКО: Ужас советских пионеров / СЕРИЙНЫЙ НОМЕР 9 / @MINAEVLIVE</h2>
+                            <p class="channel-name">MINAEV LIVE</p>
+                            <p class="views">896 тыс. просмотров • 10 дней назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/GBSajHj5y5E/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAMSVbT8U6K8z-o6JhxJR_eu75WOQ" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">1:35:16</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/ytc/AIdro_lBYPtRsVNTXeFwWSFBZKaKY2rUrDTvAyxCXxDKIwwKqYc=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">ГЛУХАРЬ Хронология событий и Разбор Сериала</h2>
+                            <p class="channel-name">В Мире Теорий</p>
+                            <p class="views">450 тыс. просмотров • 3 года назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/33t7EyTXI-w/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDbLG9N8NL5dIcUM3aiGGTAzIzeVg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">12:38</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/xwjdxioWR3Iay9NLrPpk5va3w206Xv2zW8cvGehqf2I7xcMbAVqU6GXcRQHW_2gSVnEb_ilXnVg=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">Настоящий детектив: Что скрывается за названием?</h2>
+                            <p class="channel-name">CD И СМОТРИ</p>
+                            <p class="views">264 тыс. просмотров • 4 года назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/b_oRXHDTHNo/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC-tU9YKkjQoL286YeHzaZ9W68n2A" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">10:31</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/c7Nt9X7MpunClg2-8xte2J47PKZhIpccmNTiZuYOsIVVAnYeETwEBuHUMRuAU1x3WhwwevjCdx0=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">УЧИЛСЯ ПРОГРАММИРОВАТЬ ВСЕ ЛЕТО</h2>
+                            <p class="channel-name">Honey Montana</p>
+                            <p class="views">1 млн. просмотров • 10 месяцев назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/ZbkZsb8cfSA/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAiNyojQBVVOu_W3H4lAFPwtGMp0g" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">52:50</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/aSbVrkJAMPO_j1RKTMLxSOk_g5EIVSNuf_e34fRSiSl6sLTtb8aPDI-sc0FX4UkoDJ_kxbp2=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">Жуткие истории из телевизора</h2>
+                            <p class="channel-name">Solek</p>
+                            <p class="views">1 млн. просмотров • 7 дней назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/dYdycW6inoY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD81WpYCk3CpnVeF-s2049Bu9l_lA" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">48:17</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/rGFLYfKq9ytDwk5W9vlCMhA-_CwEJTDMp1TnOUWCVc4nQ_cWIW1HjSvzJXiYP7-yPo1snjsD=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">Сериал СОЛДАТЫ. 3 Сезон. 11 Серия (Что может сделать теща с боевым командиром?)</h2>
+                            <p class="channel-name">Дембельский альбом</p>
+                            <p class="views">457 тыс. просмотров • 8 месяцев назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/cE0faSQrAUk/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYciA9KDowDw==&rs=AOn4CLBrUehSAyW72KR6_cHcEOzTenUusg" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">22:16</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/yImc3voUp7zu6VXNEiwJLGWEPMQMzW3s9nMUr0ocUUnlmLzx5rTRPR3r3J25bslfiKqvV2O2xj4=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">Отпечатки пальцев, следы, запахи – как криминалисты находят преступников?</h2>
+                            <p class="channel-name">Раскадровка</p>
+                            <p class="views">169 тыс. просмотров • 2 дня назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/5VdT3ovJS3c/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAKJZxxHSJV104YxrgwyokoWy-ghQ" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">0:19</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/ytc/AIdro_kLIQhWPsib7GfCzCGS3w8raoaIgxmbl9p-IZsG5FDAnRg=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">The Wolf of Wall Street [4K EDIT]</h2>
+                            <p class="channel-name">The Wolf of Wall Street</p>
+                            <p class="views">853 тыс. просмотров • 1 год назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/ZxOrR-6wD_8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCPbVOca3ljjJQopBTvYJYOp8v4cw" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">1:12:38</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/ytc/AIdro_k5f4vLPrC_EDMVhILZX3GZFdOfTnFdWahT1zVwMHK4DvY=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">I have no mouth and I must scream</h2>
+                            <p class="channel-name">Бэбэй</p>
+                            <p class="views">3,4 млн. просмотров • 4 года назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/anxCPxwBrRc/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCN8HoG7gYhl_b9B4Ox6Ec7PRdC9A" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">10:02:09</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/iVy4UKnECCoNmmazBOox5FTbp0TrIkuhTXZd51ACpJsfsKrP61zcEuXpdwU_dMQbrkMUa3MrQw=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">ШИЗ ИНТЕГРИРУЕТ 10 ЧАСОВ (200 ИНТЕГРАЛОВ)</h2>
+                            <p class="channel-name">SHIZ</p>
+                            <p class="views">354 тыс. просмотров • 2 месяца назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/8ysFkNYwhAE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB0IVxitACHmlS8WcZFzQ-gZP6ogA" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">26:49</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/ZJGwKd4H-lsmPo6cZ2WJ7aaU6uRJYOAmj-MDIDy_Se0sUu3iM41hG3KXgVz690DeEPRqxaKx=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">Bob Ross - Winter Night (Season 3 Episode 4)</h2>
+                            <p class="channel-name">Bob Ross</p>
+                            <p class="views">8,9 млн. просмотров • 8 лет назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/53zcRnevV1U/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC6Ys-VTtiDRVwShcQEdf7R0raiaw" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">35:36</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/VH-mSd9IJJpVLLx89m-n9_n2a6jAdsSdShOmufH-tL8QHVRi1KcGa7gFK4J2IJY8IS-ps7FVag=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">НАШЛИ ГОЛЫМ В ДЫМОХОДЕ ХИЖИНЫ СПУСТЯ 7 ЛЕТ - ИСТОРИЯ ДЖОШУА МЭДДОКСА</h2>
+                            <p class="channel-name">Anton Vlasov</p>
+                            <p class="views">135 тыс. просмотров • 1 день назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/S2ivV0YSUC4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD30wD1RSH9FueforSsFqtFQeO4ew" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">39:40</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/1jbs4gxV3bPyB2uN4bv_QCR8zhf7fbcOdnQq3-gLxZ46scUXa9ej9SS68TrbqesOUrVystEJ=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">Почему "Офис" – культовый сериал. Большой разбор | ФАЙБ</h2>
+                            <p class="channel-name">Файб</p>
+                            <p class="views">436 тыс. просмотров • 1 год назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/Zr2L1q6Fcas/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDzLjKtiOeTnDXyO2Q43lVJVCR9hw" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">1:20:45</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/ytc/AIdro_mRfQ8gVbXAwSC7yJUCSgWovqSGCYwy_FfgV9PANsVH3Mk=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">Ждули - 5 серия</h2>
+                            <p class="channel-name">Юлик</p>
+                            <p class="views">816 тыс. просмотров • 1 год назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/1CiYGZ6-Z80/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC5topekk4zZF9OvzzVVD1XvWIwlw" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">9:48</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/ytc/AIdro_kLIQhWPsib7GfCzCGS3w8raoaIgxmbl9p-IZsG5FDAnRg=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">How to Handle Any Objection | Free Sales Training Program | Sales School with Jordan Belfort</h2>
+                            <p class="channel-name">The Wolf of Wall Street</p>
+                            <p class="views">312 тыс. просмотров • 3 года назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/pPxi0EZoQVQ/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDgBgW6QC2t19xwOXCvOH8HgTstow" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">27:13</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/7DBjMCWgP5q8omYQJCB0PrVH4S0uxajDqYhZp2EpEN-9nBNxCJ7mwzWsapq-Z5CsB8Oarm9hH68=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">Что будет, если ОТМЫТЬ КАЖДУЮ ДЕТАЛЬ ДВИГАТЕЛЯ?</h2>
+                            <p class="channel-name">Гараж 54</p>
+                            <p class="views">4,8 млн. просмотров • 1 год назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://i.ytimg.com/vi/12IcBLhhxbY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAQQDYqeLJPG5auMHoPu0_BzVMDvQ" alt="Thumbnail" class="thumbnail">
+                            <p class="duration">3:00:00</p>
+                        </div>
+                        <div class="video-info">
+                            <img src="https://yt3.googleusercontent.com/2xR8ro40OVmq5tSgHQVskOkeCyo3lVqxghbVASFdAVjIp-iGTCcZTr484W6RRtti23tKVCrWKg=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+                        <div class="video-details">
+                            <h2 class="title">LOTR: You Shall Pass - Study Ambient Music with Gandalf to Focus, Read & Work | RELAXING</h2>
+                            <p class="channel-name">Symbology Cinematics</p>
+                            <p class="views">40 тыс. просмотров • 3 недели назад</p>
+
+                        </div>
+                        </div>
+                    </a>
+                   
+                </div>
+            </div>
+        </main>
+    </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
